@@ -52,7 +52,7 @@ const Banner = () => {
               whileInView={'show'} 
               viewport={{once: false, amount: 0.7}} 
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'><button className='btn btn-lg'>Contact Me</button>
-              <a href="#" className='text-gradient btn-link'>My Portfolio</a></motion.div>
+              <a href="https://google.com" className='text-gradient btn-link'>My Portfolio</a></motion.div>
               {/* SOCIALS */}
               <motion.div 
               variants={fadeIn('up',0.7)} 
@@ -60,13 +60,13 @@ const Banner = () => {
               whileInView={'show'}  
               viewport={{once: false, amount: 0.7}} 
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                <a href="#">
+                <a href="https://google.com">
                 <FaGithub />
                 </a>
-                <a href="#">
+                <a href="https://google.com">
                 <FaInstagram />
                 </a>
-                <a href="#">
+                <a href="https://google.com">
                 <FaLinkedin />
                 </a>
               </motion.div>
