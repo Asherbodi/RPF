@@ -63,7 +63,7 @@ const About = () => {
                     <div className=' font-primary text-sm tracking-[2px]'>Years of <br />Experience</div>
                     </div>
                   </div>
-                    <div className=' flex gap-x-8 items-center'><button className='btn btn-lg'>Contact me</button><a href="#" className='text-gradient btn-link'>My Portfolio</a></div>
+                    <div className=' flex gap-x-8 items-center'><button className='btn btn-lg'>Contact me</button><a href="https://google.com" className='text-gradient btn-link' />My Portfolio</div>
             </motion.div>
         </div>
       </div>
