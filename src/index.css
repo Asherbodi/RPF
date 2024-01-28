@@ -69,3 +69,11 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+.bottom-oval-image {
+  border-bottom-left-radius: 75%;  /* Adjust as needed */
+  border-bottom-right-radius: 75%; /* Adjust as needed */
+  width: auto;  /* Set width as per your requirement */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover ; /* Ensures the image covers the area */
+}
